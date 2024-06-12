@@ -37,3 +37,19 @@ variable "public_ip_on_launch" {
     default = true
   
 }
+variable "aws_security_group_ids" {
+    description = "List of security group IDs to associate with the EC2 instance"
+    type        = list(string)
+}
+
+variable "instance_type" {
+    description = "instance type"
+    default = "t3.micro"
+  
+}
+
+variable "ami" {
+    description = "amazon machine image"
+    default = "ami-008616ec4a2c6975e"
+  
+}

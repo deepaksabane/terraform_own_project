@@ -5,3 +5,5 @@ private_subnet_cidr_1 = "10.0.192.0/19"
 private_subnet_cidr_2 = "10.0.224.0/19"
 region = "ap-south-2"
 public_ip_on_launch = true
+instance_type = "t3.micro"
+ami = "ami-008616ec4a2c6975e"
